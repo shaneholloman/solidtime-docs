@@ -83,12 +83,6 @@ After you have set up the environment files and generated the application keys, 
 docker compose up -d
 ```
 
-You can view the logs of the containers with the following command:
-
-```bash
-docker compose logs -f
-```
-
 ### 5. Migrate database
 
 To create the database tables, you need to run the migrations. You can do this by running the following command:
@@ -112,6 +106,12 @@ To do this you can set the environment variable `AUTO_DB_MIGRATE` to `true` in t
 ### 6. Access the application
 
 You can now access the application in your browser. The URL depends on your setup.
+
+To view the logs of the containers, you can use the following command:
+
+```bash
+docker compose logs -f
+```
 
 ### 7. Create a user
 
